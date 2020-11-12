@@ -169,7 +169,7 @@ class App extends React.Component {
   };
   handleTime = () => {
     let message = this.showDate(new Date());
-    this.setState({ message });
+    alert(message);
   };
   greetPeople = () => {
     let message = "Welcome to 30 Days Of React Challenge, 2020";
